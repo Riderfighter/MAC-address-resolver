@@ -12,13 +12,13 @@
 
 ### Usage
 
-> To use the either nim script, supply a commandline argument which has the MAC Address you'd like to lookup. To use the none http version compile with: 
+> To use the either nim script, supply a commandline argument which has the MAC Address you'd like to lookup. To use the non-http version run: 
 ```
-nim --hints:off --verbosity:0 c -r "./macaddrResolvernHTTP.nim" 38-F9-D3-0A-1F-D3
+./macaddrResolvernHTTP 38-F9-D3-0A-1F-D3
 ```
-> To use the http version compile with:
+> To use the http version run:
 ```
-nim --hints:off --verbosity:0 c -d:ssl -r "/./macaddrResolverHTTP.nim" 38-F9-D3-0A-1F-D3
+./macaddrResolverHTTP 38-F9-D3-0A-1F-D3
 ```
 
 ----
