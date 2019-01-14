@@ -10,7 +10,20 @@
 
 ----
 
-### Changelog
+### Usage
+
+> To use the either nim script, supply a commandline argument which has the MAC Address you'd like to lookup. To use the none http version compile with: 
+```
+nim --hints:off --verbosity:0 c -r "./macaddrResolvernHTTP.nim" 38-F9-D3-0A-1F-D3
+```
+> To use the http version compile with:
+```
+nim --hints:off --verbosity:0 c -d:ssl -r "/./macaddrResolverHTTP.nim" 38-F9-D3-0A-1F-D3
+```
+
+----
+
+#### Changelog
 
 * 13-Jan-2019 Added a detailed readme.
 * 13-Jan-2019 Added core files.
