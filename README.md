@@ -16,7 +16,7 @@
 ```
 ./macaddrResolvernHTTP 38-F9-D3-0A-1F-D3
 ```
-> To use the http version run:
+> To use the http version compile with ssl using `-d:ssl` then run:
 ```
 ./macaddrResolverHTTP 38-F9-D3-0A-1F-D3
 ```
